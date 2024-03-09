@@ -8,3 +8,5 @@ c17.v & c17.pat are the verilog file describe the circuit, test_lib is the liber
 $./CAD_tool c17.v c17.pat test_lib.lib 
 
 Then you will get three extra file illustate the delay load and power consumption of specific input file.
+
+Golden file can help user to check the correctness of their design 
