@@ -1,8 +1,8 @@
 CXX = g++            
 CXXFLAGS = -std=c++11 
 
-TARGET = 312510191    
-SOURCE = 312510191.cpp 
+TARGET = CAD_tool   
+SOURCE = CAD_tool.cpp 
 
 $(TARGET): $(SOURCE)
 	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SOURCE)
